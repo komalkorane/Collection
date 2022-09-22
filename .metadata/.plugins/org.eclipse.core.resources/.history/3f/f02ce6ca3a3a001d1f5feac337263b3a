@@ -1,0 +1,30 @@
+package com.pro.collection;
+import java.util.*;
+public class Collection {
+
+	public static void main(String[] args) {
+
+		ArrayList al=new ArrayList();
+		ArrayList al1=new ArrayList();
+		al1.add(20);
+		al1.add(30);
+		al1.add("Ram");
+		
+		al.addAll(al1);
+		al.add(10);
+		System.out.println(al);
+		
+		
+//		al.remove(2);
+//		al.removeAll(al1);
+		System.out.println(al);
+		
+//		al1.clear();   				
+//		System.out.println(al1);
+		
+		
+		System.out.println(al.contains(10));
+		
+	}
+
+}

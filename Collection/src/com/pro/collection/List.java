@@ -1,0 +1,37 @@
+package com.pro.collection;
+import java.util.*;
+public class List {
+
+	public static void main(String[] args) {
+		
+		ArrayList al=new ArrayList();
+		al.add(10);
+		al.add(10);
+		al.add(30);
+		
+		
+//		al.set(0, 20);			//1   returns old value  
+//		System.out.println(al);
+		
+//		System.out.println(al.get(0));  //2  returns element
+		
+//		System.out.println(al.indexOf(30));  //3  return 1st index
+
+//		System.out.println(al.lastIndexOf(10));  //4 return last index
+		
+//		al.add(2,40);				//5 adding the element at specified index
+//		System.out.println(al);
+		
+//		System.out.println(al.subList(0, 2));  //6  return list 0 to index-1
+		
+//		    <<<<<<>>>>>> Array List ()   <<<<<<<>>>>>   
+		
+//		al.ensureCapacity(15);    //1  ensures the specified capacity
+//		System.out.println(al);
+		
+//		al.trimToSize(); 		//2 remove empty spacess
+		
+//	*	ArrayList l2=al.removeRange(0,2);  //3  remove the element between the range
+	}
+
+}

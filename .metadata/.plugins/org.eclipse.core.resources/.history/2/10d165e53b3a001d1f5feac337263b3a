@@ -1,0 +1,43 @@
+package com.pro.collection;
+import java.util.*;
+public class Collection {
+
+	public static void main(String[] args) {
+
+		ArrayList al=new ArrayList();
+		ArrayList al1=new ArrayList();
+		al1.add(20);
+		al1.add(30);
+		al1.add("Ram");				//1
+		
+		al.addAll(al1);				//2
+		al.add(10);
+		System.out.println(al);
+		
+		
+//		al.remove(2);				//3
+//		al.removeAll(al1);			//4
+//		System.out.println(al);
+		
+//		al1.clear();   				//5
+//		System.out.println(al1);
+		
+		
+//		System.out.println(al.contains(50));	//6
+		
+//		System.out.println(al.containsAll(al1));	//7
+		
+//		al.retainAll(al1);   		//8
+//		System.out.println(al);
+		
+//		System.out.println(al1.size());    //9
+		
+//		System.out.println(al1.equals(al));  //10
+		
+//		System.out.println(al1.hashCode());   //11
+		
+		System.out.println(al.isEmpty());
+		
+	}
+
+}
